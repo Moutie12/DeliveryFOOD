@@ -1,0 +1,27 @@
+.cont{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 176px;
+    letter-spacing: 10px;
+}
+#e1{
+    font-size: 80px;
+    animation: bouncing 4.5s infinite ease-in-out;
+}
+@keyframes bouncing{
+    0%, 100%{
+        transform: scale3d(1, 1, 1);
+    }
+    100%{
+        transform: scale3d(0, 0, 1);
+    }
+}
+#flech1{
+    margin-left: 116px;
+    font-size: 100px;
+    color: red;
+}
+.flech{
+    margin-top: 80px;
+    margin-left: 170px;
+}

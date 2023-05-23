@@ -1,0 +1,13 @@
+#navbar{
+    color: #f8f9fc;
+    background-color: #6f42c1;
+    height: 50px;
+}
+#title{
+    font-size: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    border-bottom: 2px solid yellow;
+    font-style: inherit;
+    color: rgb(236, 27, 27);
+}

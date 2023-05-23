@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Poppins&family=Roboto+Condensed:ital,wght@0,300;1,300;1,700&family=Tajawal:wght@300&display=swap');
+.voscommandes{
+    margin-top: 50px;
+    font-family: Roboto;
+    color: #DC4C64;
+    font-size: 36px;
+    text-align: center;
+}
+#home{
+    height: 40px;
+    padding: 0px 20px;
+    margin-top: 13px;
+    margin-right: 20px;
+}
+#logout{
+    float: right;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}

@@ -1,0 +1,22 @@
+<div *ngIf="this.IsLogged() == true">
+<button type="button" class="btn btn-primary" id="home" (click)="home()">Home</button>
+<button type="button" class="btn btn-primary" id="home" (click)="list()">List Of Products</button>
+<button type="button" class="btn btn-danger" id="logout" (click)="LogOut()">LogOut</button>
+<div>
+    <h2 class="voscommandes">Mes Commandes : </h2>
+    <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">id commande</th>
+            <th scope="col">nom article</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of this.oders">
+            <th scope="row">{{item.idC}}</th>
+            <td>{{item.nomarticle}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+</div>

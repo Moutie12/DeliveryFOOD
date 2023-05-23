@@ -1,0 +1,8 @@
+<app-navbar></app-navbar>
+<div class="cards">
+    <div class="card" *ngFor="let item of this.Articles">
+        <h2 id="name">{{this.item.name}}</h2>
+        <img [src]="this.item.image" height="84%" width="100%" id="photo">
+        <button class="order"  *ngIf="this.LogIn() == true" (click)="this.save(this.item.id)">Pass An Order</button>
+    </div>
+</div>
